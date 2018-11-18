@@ -1,0 +1,51 @@
+
+body, p, div, ul, ol, table, dl, dd, dt {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+    float: left;
+    border-radius: 5px;
+}
+th{
+    background-color: #6da3da;
+}
+td {
+
+    border: 1px solid #0C0C0C;
+    border-radius: 5px;
+}
+
+#top {
+    width: 100%;
+    height: 48px;
+    margin: 0 auto;
+    background: #E2E2E2;
+}
+
+#navi a {
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+
+.small {
+    width: 25px;
+    height: 25px;
+    border: 0;
+}
+
+img {
+    border-radius: 5px;
+}
+
+table tr:hover {
+    background: #6da3da;
+    color: #E2E2E2;
+}
